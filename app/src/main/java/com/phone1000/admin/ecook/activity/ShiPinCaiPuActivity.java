@@ -90,7 +90,6 @@ public class ShiPinCaiPuActivity extends AppCompatActivity {
                 intent.putExtra("collection", list.get(i).getCollectCount()+ "");
                 intent.putExtra("type",3);
                 startActivity(intent);
-
             }
         });
     }
