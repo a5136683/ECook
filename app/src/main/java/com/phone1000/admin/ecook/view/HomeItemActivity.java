@@ -15,6 +15,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
 import com.phone1000.admin.ecook.R;
 import com.phone1000.admin.ecook.activity.ShiPingActivity;
 import com.phone1000.admin.ecook.adapter.FootViewPagerAdapter;
@@ -22,11 +23,14 @@ import com.phone1000.admin.ecook.adapter.HomeItemAdapter;
 import com.phone1000.admin.ecook.app.MyApplication;
 import com.phone1000.admin.ecook.bean.HomeItem2DataInfo;
 import com.phone1000.admin.ecook.bean.HomeItemDataInfo;
+import com.phone1000.admin.ecook.bean.VideoInfo;
 import com.phone1000.admin.ecook.presenter.HomeItemPresenter;
 import com.phone1000.admin.ecook.presenter.IHomeItemPresenter;
 import com.phone1000.admin.ecook.utils.LoginUtils;
 import com.phone1000.admin.ecook.utils.ShareSdkDemo;
 
+import org.xutils.common.Callback;
+import org.xutils.http.RequestParams;
 import org.xutils.image.ImageOptions;
 import org.xutils.view.annotation.ViewInject;
 import org.xutils.x;
@@ -125,9 +129,38 @@ public class HomeItemActivity extends AppCompatActivity implements IHomeItemView
                 home_item_iv.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(HomeItemActivity.this, ShiPingActivity.class);
-                        intent.putExtra("video", "http://tv.ecook.cn/o/" + homeItemDataInfo.getList().get(0).getId() + ".mp4");
-                        startActivity(intent);
+                        final Intent intent = new Intent(HomeItemActivity.this, ShiPingActivity.class);
+                        final String[] video = new String[1];
+                        final String videoUrl = "http://api.ecook.cn/public/getVideoInfo.shtml?project="+homeItemDataInfo.getList().get(0).getId();
+                        RequestParams entity = new RequestParams(videoUrl);
+                        x.http().post(entity, new Callback.CommonCallback<String>() {
+                            @Override
+                            public void onSuccess(String result) {
+                                Gson gson = new Gson();
+                                VideoInfo videoInfo = gson.fromJson(result, VideoInfo.class);
+                                video[0] = videoInfo.getUrlprefix()+videoInfo.getName();//拼接视频的url
+                                intent.putExtra("video", video[0].toString() );
+                                startActivity(intent);
+                            }
+
+                            @Override
+                            public void onError(Throwable ex, boolean isOnCallback) {
+
+                            }
+
+                            @Override
+                            public void onCancelled(CancelledException cex) {
+
+                            }
+
+                            @Override
+                            public void onFinished() {
+
+                            }
+                        });
+//                        if(video[0]!=null){
+//                        intent.putExtra("video", video[0].toString() );
+//                        startActivity(intent);}
                     }
                 });
             }

@@ -83,6 +83,7 @@ public class ShiPinCaiPuActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent=new Intent();
                 intent.setClass(ShiPinCaiPuActivity.this,HomeItemActivity.class);
+                list.get(i).getType();
                 intent.putExtra("url","http://api.ecook.cn/public/getRecipeListByIds.shtml?ids="+list.get(i).getId());
                 intent.putExtra("imageUrl",list.get(i).getImageid());
                 intent.putExtra("praise", list.get(i).getLikeCount()+ "");

@@ -36,4 +36,5 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.0.0'
     compile project(':vitamio')
     compile project(':OneSDK')
+    compile 'com.github.chrisbanes.photoview:library:1.2.4'
 }
