@@ -15,11 +15,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.phone1000.admin.ecook.R;
-import com.phone1000.admin.ecook.TeachFragment.TeachFragment;
-import com.phone1000.admin.ecook.fragment.HomeFragment;
-import com.phone1000.admin.ecook.fragment.MineFragment;
-import com.phone1000.admin.ecook.fragment.StoreFragment;
-import com.phone1000.admin.ecook.fragment.TalkFragment;
+import com.phone1000.admin.ecook.fragment.TeachFragment.TeachFragment;
+import com.phone1000.admin.ecook.fragment.MyFragment.HomeFragment;
+import com.phone1000.admin.ecook.fragment.MyFragment.MineFragment;
+import com.phone1000.admin.ecook.fragment.MyFragment.StoreFragment;
+import com.phone1000.admin.ecook.fragment.MyFragment.TalkFragment;
 import com.phone1000.admin.ecook.utils.NetworkUtils;
 
 import org.xutils.x;

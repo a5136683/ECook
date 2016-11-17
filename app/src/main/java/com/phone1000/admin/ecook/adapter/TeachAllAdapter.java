@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.phone1000.admin.ecook.R;
-import com.phone1000.admin.ecook.TeachFragmentBean.TeachAllDataInfo;
+import com.phone1000.admin.ecook.bean.TeachFragmentBean.TeachAllDataInfo;
 
 import org.xutils.x;
 

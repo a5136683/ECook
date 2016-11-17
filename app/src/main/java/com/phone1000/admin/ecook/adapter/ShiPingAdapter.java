@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.phone1000.admin.ecook.R;
-import com.phone1000.admin.ecook.TeachFragmentBean.TeachShiPingDataInfo;
+import com.phone1000.admin.ecook.bean.TeachFragmentBean.TeachShiPingDataInfo;
 
 import org.xutils.image.ImageOptions;
 import org.xutils.x;

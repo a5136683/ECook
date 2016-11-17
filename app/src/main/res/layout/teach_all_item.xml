@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             />
-        <com.phone1000.admin.ecook.Teach_XianXiaFragmnet.DelTextView
+        <com.phone1000.admin.ecook.fragment.Teach_XianXiaFragmnet.DelTextView
             android:id="@+id/teach_all_originPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

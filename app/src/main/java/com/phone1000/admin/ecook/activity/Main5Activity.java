@@ -10,8 +10,8 @@ import android.view.View;
 
 import com.phone1000.admin.ecook.R;
 import com.phone1000.admin.ecook.adapter.ShouCangAdapter;
-import com.phone1000.admin.ecook.gerenfragment.DingDan1fragment;
-import com.phone1000.admin.ecook.gerenfragment.DingDan2fragment;
+import com.phone1000.admin.ecook.fragment.gerenfragment.DingDan1fragment;
+import com.phone1000.admin.ecook.fragment.gerenfragment.DingDan2fragment;
 
 import java.util.ArrayList;
 import java.util.List;

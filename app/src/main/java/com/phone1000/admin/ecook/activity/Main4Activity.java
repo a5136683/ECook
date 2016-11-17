@@ -10,8 +10,8 @@ import android.view.View;
 
 import com.phone1000.admin.ecook.R;
 import com.phone1000.admin.ecook.adapter.ShouCangAdapter;
-import com.phone1000.admin.ecook.gerenfragment.Cailanzi1fragment;
-import com.phone1000.admin.ecook.gerenfragment.Cailanzi2fragment;
+import com.phone1000.admin.ecook.fragment.gerenfragment.Cailanzi1fragment;
+import com.phone1000.admin.ecook.fragment.gerenfragment.Cailanzi2fragment;
 
 import java.util.ArrayList;
 import java.util.List;
