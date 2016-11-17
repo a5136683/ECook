@@ -12,7 +12,6 @@ public class Main7Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main7);
-        //test
     }
     public void onClick(View view) {
         finish();
