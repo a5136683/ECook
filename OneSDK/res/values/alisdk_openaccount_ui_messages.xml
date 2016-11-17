@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alisdk_message_561_name">QR_CONFIRM_USER_NOT_LOGIN</string>
+    <string name="alisdk_message_561_message">当前应用未登录, 不能扫取二维码打开扫码确认登陆页</string>
+    <string name="alisdk_message_561_action">请在当前应用登录 OpenAccount 账号</string>
+    <string name="alisdk_message_561_type">E</string>
+    <string name="alisdk_message_562_name">QR_CONFIRM_DOMAIN_MISMATCH</string>
+    <string name="alisdk_message_562_message">当前扫码确认应用与显示二维码应用不属于同一个域</string>
+    <string name="alisdk_message_562_action">请确保扫码确认应用与显示二维码应用属于同一个域</string>
+    <string name="alisdk_message_562_type">E</string>
+</resources>

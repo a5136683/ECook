@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phone1000.admin.ecook.activity.Main4Activity">
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+        <ImageButton
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="30dp"
+            android:onClick="onClick"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/go_back_normal"
+            android:background="#ffffffff"/>
+        <TextView
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="菜篮子"
+        android:textSize="20sp"
+            android:id="@+id/textView2" />
+        <TextView
+            android:padding="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清空"
+            android:textSize="20sp"
+            android:textColor="#ffc000"
+            android:layout_alignTop="@+id/textView2" />
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:layout_below="@id/rl_head"
+        android:id="@+id/shoucang_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.design.widget.TabLayout>
+    <View
+        android:id="@+id/shoucang_View"
+        android:layout_below="@id/shoucang_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/shoucang_View"
+        android:id="@+id/shoucang_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

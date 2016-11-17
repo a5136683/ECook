@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\ali_sdk_openaccount_send_sms_code_text_color_selector.xml",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\color\\ali_sdk_openaccount_send_sms_code_text_color_selector.xml"
+    },
+    {
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\ali_sdk_openaccount_button_text_color_selector.xml",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\color\\ali_sdk_openaccount_button_text_color_selector.xml"
+    }
+]

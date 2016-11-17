@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/talk_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <RelativeLayout
+        android:id="@+id/r"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/recipe_arrow_1"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/toolBar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="厨说"
+            />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/recipe_arrow_share"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <android.support.design.widget.TabLayout
+        android:layout_below="@id/r"
+        android:id="@+id/talk_tabLayout"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="50dp"></android.support.design.widget.TabLayout>
+
+    <View
+        android:id="@+id/talk_View"
+        android:layout_below="@id/talk_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bfbfbf"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/talk_View"
+        android:id="@+id/talk_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</RelativeLayout>

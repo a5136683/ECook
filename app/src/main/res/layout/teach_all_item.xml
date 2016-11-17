@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#dfdfdf"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <LinearLayout
+    android:id="@+id/lltitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@id/teach_all_iv"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/teach_all_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/teach_all_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地区"
+        android:textSize="15sp"
+        android:layout_weight="4"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+
+        />
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/lltitle"
+        android:layout_alignBottom="@id/lltitle"/>
+
+    <ImageView
+        android:id="@+id/teach_all_iv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+    <TextView
+        android:id="@+id/teach_all_roomName"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/teach_all_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/teach_all_txtkcoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            />
+        <com.phone1000.admin.ecook.Teach_XianXiaFragmnet.DelTextView
+            android:id="@+id/teach_all_originPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</LinearLayout>

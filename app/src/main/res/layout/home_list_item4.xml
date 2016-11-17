@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/home_list_iv"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--/>-->
+
+    <!--</RelativeLayout>-->
+    <!--<TextView-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:id="@+id/home_list_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="title"/>-->
+    <!--<ImageView-->
+        <!--android:id="@+id/home_list_user"-->
+        <!--android:layout_width="38dp"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:layout_gravity="center"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_gravity="center"-->
+        <!--android:id="@+id/home_list_name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="用户名称"/>-->
+    <!--<TextView-->
+        <!--android:layout_gravity="center"-->
+        <!--android:id="@+id/home_list_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:lines="2"/>-->
+</LinearLayout>

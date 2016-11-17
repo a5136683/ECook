@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#dfdfdf"/>
+<LinearLayout
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/teach_shiping_imageid"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_weight="0.5"/>
+    <TextView
+        android:paddingLeft="8dp"
+        android:id="@+id/teach_shiping_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_weight="5"
+        android:textSize="15sp"/>
+   </LinearLayout>
+    <RelativeLayout
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:id="@+id/teach_shiping_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <LinearLayout
+        android:paddingTop="6dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="8dp"
+            android:id="@+id/teach_shiping_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/teach_shiping_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

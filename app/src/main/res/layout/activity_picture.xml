@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phone1000.admin.ecook.activity.PictureActivity">
+
+    <LinearLayout
+        android:id="@+id/picture_activity_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/picture_activity_currentPic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="/"/>
+        <TextView
+            android:id="@+id/picture_activity_picNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="2"
+            />
+        <!--<TextView-->
+            <!--android:id="@+id/picture_activity_title"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="test"-->
+            <!--android:textSize="18sp" />-->
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/picture_activity_vpShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/picture_activity_ll"
+         />
+
+</RelativeLayout>
+
+

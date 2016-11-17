@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My网上厨房</string>
+    <string name="shiping">视频</string>
+    <string name="zhibo">直播</string>
+    <string name="xianxia">线下</string>
+    <string name="point">......................................................................................................</string>
+    <string name="long_text"></string>
+</resources>

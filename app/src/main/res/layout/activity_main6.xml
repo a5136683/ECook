@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phone1000.admin.ecook.activity.Main6Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+        <ImageButton
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="30dp"
+            android:onClick="onClick"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/go_back_normal"
+            android:background="#ffffffff"/>
+        <TextView
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的课程"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+</RelativeLayout>
