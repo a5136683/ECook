@@ -18,6 +18,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import uk.co.senab.photoview.PhotoView;
+import uk.co.senab.photoview.PhotoViewAttacher;
+
 
 public class PictureActivity extends AppCompatActivity {
 
@@ -29,7 +32,7 @@ public class PictureActivity extends AppCompatActivity {
 //    private RelativeLayout picture_activity_rl = null;
     private PictureAdapter adapter = null;
     private List<ImageView> imageList = new ArrayList<>();
-    private ImageView image = null;
+    private PhotoView image = null;
     private List<Map<String,Object>> list = new ArrayList<Map<String,Object>>();
     private ImageOptions options = null;
 
@@ -42,7 +45,7 @@ public class PictureActivity extends AppCompatActivity {
         detail_url = getIntent().getStringArrayExtra("image");
         initView();
         if(detail_url.length==1){
-            image = new ImageView(this);
+            image = new PhotoView(this);
             x.image().bind(image,"http://pic.ecook.cn/web/"+detail_url[0]+".jpg!m720",options);
             image.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -53,14 +56,20 @@ public class PictureActivity extends AppCompatActivity {
             imageList.add(image);
         }else{
         for(int i = 0 ; i < detail_url.length -1; i++){
-            image = new ImageView(this);
+            image = new PhotoView(this);
             x.image().bind(image,"http://pic.ecook.cn/web/"+detail_url[i]+".jpg!m720",options);
-            image.setOnClickListener(new View.OnClickListener() {
+            image.setOnPhotoTapListener(new PhotoViewAttacher.OnPhotoTapListener() {
                 @Override
-                public void onClick(View view) {
+                public void onPhotoTap(View view, float x, float y) {
                     finish();
                 }
             });
+//            image.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//
+//                }
+//            });
             imageList.add(image);
         }}
         picture_activity_picNum.setText(imageList.size()+"");
