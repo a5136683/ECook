@@ -9,12 +9,16 @@ import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebSettings.TextSize;
 import android.webkit.WebView;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.phone1000.admin.ecook.R;
+import com.phone1000.admin.ecook.pay.PayResult;
+import com.phone1000.admin.ecook.presenter.PayPresenter;
 import com.phone1000.admin.ecook.utils.MyChromClient;
 import com.phone1000.admin.ecook.utils.MyWebViewClient;
+import com.phone1000.admin.ecook.view.PayInter;
 
 import org.xutils.x;
 
@@ -22,12 +26,14 @@ import org.xutils.x;
  * Created by admin on 2016/11/8.
  */
 
-public class StoreFragment extends Fragment {
+public class StoreFragment extends Fragment implements PayInter{
     private ImageView back;
     private View v = null;
     private String url = "http://mall.ecook.cn/category/list?f=ecook_show_mine&machine=O5f4a734fdc4008ddc289d77fa18a74be8fd41a77";
 //    @ViewInject(R.id.store_web)
     private WebView store_web;
+    private Button pay;
+    private PayPresenter payPresenter = new PayPresenter(this,getActivity());
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -54,11 +60,18 @@ public class StoreFragment extends Fragment {
 
             }
         });
+        pay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                payPresenter.UsePay();
+            }
+        });
     }
 
 
     private void initView() {
         store_web = (WebView) v.findViewById(R.id.store_web);
+        pay = (Button) v.findViewById(R.id.pay);
         back = (ImageView) v.findViewById(R.id.back);
         MyWebViewClient client = new MyWebViewClient();
         MyChromClient chromClient = new MyChromClient();
@@ -75,4 +88,9 @@ public class StoreFragment extends Fragment {
         store_web.loadUrl(url);
 
 }
+
+    @Override
+    public void getPay(PayResult result) {
+        Toast.makeText(getActivity(), "success", Toast.LENGTH_SHORT).show();
+    }
 }

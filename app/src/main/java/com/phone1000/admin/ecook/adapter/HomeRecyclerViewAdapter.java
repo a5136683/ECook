@@ -3,16 +3,15 @@ package com.phone1000.admin.ecook.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.phone1000.admin.ecook.view.PersonActivity;
 import com.phone1000.admin.ecook.R;
 import com.phone1000.admin.ecook.bean.HomeDataInfo;
 import com.phone1000.admin.ecook.utils.CircleImageView;
+import com.phone1000.admin.ecook.view.PersonActivity;
 
 import org.xutils.image.ImageOptions;
 import org.xutils.x;
@@ -43,7 +42,6 @@ public class HomeRecyclerViewAdapter extends RecyclerView.Adapter<HomeRecyclerVi
     @Override
     public HomeRecyclerViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(context).inflate(R.layout.home_rv_item,parent,false);
-        Log.d("xxx","走了没");
         return new HomeRecyclerViewHolder(v);
     }
 
@@ -69,7 +67,6 @@ public class HomeRecyclerViewAdapter extends RecyclerView.Adapter<HomeRecyclerVi
 
     @Override
     public int getItemCount() {
-        Log.d("test", "getItemCount: "+list.size());
         return list==null ? 0 : list.size();
     }
 }

@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.0"
     defaultConfig {
         applicationId "com.phone1000.admin.ecook"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -37,4 +37,5 @@ dependencies {
     compile project(':vitamio')
     compile project(':OneSDK')
     compile 'com.github.chrisbanes.photoview:library:1.2.4'
+    compile files('libs/alipaySingle-20161129.jar')
 }

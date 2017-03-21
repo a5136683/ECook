@@ -21,9 +21,9 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.phone1000.admin.ecook.R;
 import com.phone1000.admin.ecook.activity.FindActivity;
 import com.phone1000.admin.ecook.activity.Main4Activity;
-import com.phone1000.admin.ecook.R;
 import com.phone1000.admin.ecook.activity.ShiPinCaiPuActivity;
 import com.phone1000.admin.ecook.adapter.HomeHeadAdapter;
 import com.phone1000.admin.ecook.adapter.HomeListAdapter;
@@ -38,6 +38,7 @@ import com.phone1000.admin.ecook.utils.LoginUtils;
 import com.phone1000.admin.ecook.view.HomeItem2Activity;
 import com.phone1000.admin.ecook.view.HomeItemActivity;
 import com.phone1000.admin.ecook.view.IHomeVIew;
+import com.phone1000.admin.ecook.view.TimeActivity;
 
 import org.xutils.x;
 
@@ -66,7 +67,7 @@ public class HomeFragment extends Fragment implements IHomeVIew, View.OnClickLis
     private SwipeRefreshLayout home_swipe = null;
     private int j = 1;
     private ImageView find,back,share;
-    private LinearLayout ll_teach;
+    private LinearLayout ll_teach,ll_store;
 
     @Nullable
     @Override
@@ -96,6 +97,7 @@ public class HomeFragment extends Fragment implements IHomeVIew, View.OnClickLis
         back.setOnClickListener(this);
         share.setOnClickListener(this);
         ll_teach.setOnClickListener(this);
+        ll_store.setOnClickListener(this);
         home_swipe.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -164,6 +166,7 @@ public class HomeFragment extends Fragment implements IHomeVIew, View.OnClickLis
         home_list = (ListView) v.findViewById(R.id.home_list);
         home_head2 = RelativeLayout.inflate(getActivity(), R.layout.home_head2, null);
         ll_teach = (LinearLayout) home_head2.findViewById(R.id.ll_teach);
+        ll_store = (LinearLayout) home_head2.findViewById(R.id.ll_store);
         home_head_viewPage = (ViewPager) home_head2.findViewById(R.id.home_head_viewPager);
         home_head3 = RelativeLayout.inflate(getActivity(), R.layout.home_head3, null);//添加listView头部
         home_head_rv = (RecyclerView) home_head3.findViewById(R.id.home_rv);
@@ -217,12 +220,17 @@ public class HomeFragment extends Fragment implements IHomeVIew, View.OnClickLis
                 if(!MyApplication.isLogin()){
                     LoginUtils.login(getActivity());
                 }else{
-                    intent.setClass(getContext(), Main4Activity.class);
+                    intent = new Intent(getContext(),Main4Activity.class);
                     startActivity(intent);
                 }
                 break;
             case R.id.ll_teach:
                 intent = new Intent(getContext(), ShiPinCaiPuActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.ll_store:
+                intent = new Intent(getContext(), TimeActivity.class);
+
                 startActivity(intent);
                 break;
         }

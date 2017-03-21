@@ -37,7 +37,7 @@ public class PersonData implements IPersonData {
 
             @Override
             public void onError(Throwable ex, boolean isOnCallback) {
-                Log.d("test","error:"+ex);
+
             }
 
             @Override

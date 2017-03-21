@@ -109,7 +109,6 @@ public class PersonActivity extends AppCompatActivity implements IPerson,View.On
         animation_ll = (LinearLayout) findViewById(R.id.animation_ll);
         animationDrawable.start();
         url = "http://api.ecook.cn/public/getUserPageData.shtml?id="+getIntent().getStringExtra("Uid");
-        Log.d("test",url);
         iPersonPresenter.getUrl(url);//位置可变
 
         head = RelativeLayout.inflate(this,R.layout.person_head,null);

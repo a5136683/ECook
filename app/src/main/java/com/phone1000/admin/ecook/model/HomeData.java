@@ -1,7 +1,5 @@
 package com.phone1000.admin.ecook.model;
 
-import android.util.Log;
-
 import com.google.gson.Gson;
 import com.phone1000.admin.ecook.bean.HomeDataInfo;
 import com.phone1000.admin.ecook.bean.HomeListDataInfo;
@@ -28,7 +26,6 @@ public class HomeData implements IHomeData {
 
     @Override
     public void getData() {
-        Log.d("test","到达m层了");
         String url = "http://api.ecook.cn/public/getDifferentHomedata.shtml";
         RequestParams entity = new RequestParams(url);
         entity.addBodyParameter("machine", "O5f4a734fdc4008ddc289d77fa18a74be8fd41a77");
@@ -45,7 +42,7 @@ public class HomeData implements IHomeData {
             }
             @Override
             public void onError(Throwable ex, boolean isOnCallback) {
-                Log.d("test","到达error层了");
+
             }
             @Override
             public void onCancelled(CancelledException cex) {

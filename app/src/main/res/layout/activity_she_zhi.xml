@@ -52,12 +52,14 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:src="@mipmap/more_arrow"/>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="8dp" />
     <LinearLayout
+        android:id="@+id/clean_cache"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -77,10 +79,12 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="1021.30KB" />
+            android:hint="0KB" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
             android:src="@mipmap/more_arrow"/>
     </LinearLayout>
     <LinearLayout
@@ -99,6 +103,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:src="@mipmap/more_arrow"/>
     </LinearLayout>
     <LinearLayout
@@ -117,6 +122,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:src="@mipmap/more_arrow"/>
     </LinearLayout>
     <LinearLayout
@@ -135,6 +141,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:src="@mipmap/more_arrow"/>
     </LinearLayout>
     <LinearLayout
@@ -153,6 +160,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:src="@mipmap/more_arrow"/>
     </LinearLayout>
    <TextView
@@ -169,6 +177,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:src="@mipmap/setting_exit"/>
         <TextView
             android:layout_gravity="center"

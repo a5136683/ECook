@@ -2,7 +2,6 @@ package com.phone1000.admin.ecook.adapter;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -43,7 +42,6 @@ public class FootViewPagerAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
         options = new ImageOptions.Builder().setRadius(20).setLoadingDrawableId(R.mipmap.head_image_weman).setFailureDrawableId(R.mipmap.head_image_weman).build();
-        Log.d("test","33333333333333333333");
         ImageView imageView = new ImageView(context);
         x.image().bind(imageView,"http://pic.ecook.cn/web/"+list.get(position).getImageid()+".jpg!m720",options);
         container.addView(imageView);

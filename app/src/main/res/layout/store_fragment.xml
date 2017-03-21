@@ -33,9 +33,20 @@
             android:src="@mipmap/recipe_arrow_share"
             android:visibility="gone"/>
     </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <WebView
         android:id="@+id/store_web"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></WebView>
 
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#ffff"
+        android:text="立即购买"
+        android:layout_height="50dp"/>
+    </RelativeLayout>
 </LinearLayout>

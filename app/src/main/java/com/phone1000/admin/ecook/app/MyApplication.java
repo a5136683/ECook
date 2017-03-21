@@ -22,7 +22,7 @@ public class MyApplication extends Application {
     }
     public static void setIsLogin(boolean isLogin) {
         MyApplication.isLogin = isLogin;
-        sp.edit().putBoolean("login",isLogin);//将登陆状态存入sharePreferences中 用来保存登陆状态
+        sp.edit().putBoolean("login",isLogin).commit();//将登陆状态存入sharePreferences中 用来保存登陆状态
     }
     @Override
     public void onCreate() {

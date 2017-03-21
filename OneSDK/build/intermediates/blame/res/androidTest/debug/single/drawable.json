@@ -56,12 +56,12 @@
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
     },
     {
-        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
-        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
-    },
-    {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_tx_off.png",
@@ -100,16 +100,16 @@
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_x_button.png"
     },
     {
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ali_sdk_openaccount_bg_topline_gray.xml",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\ali_sdk_openaccount_bg_topline_gray.xml"
+    },
+    {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_follow_on.png",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_on.png"
-    },
-    {
-        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ali_sdk_openaccount_bg_topline_gray.xml",
-        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\ali_sdk_openaccount_bg_topline_gray.xml"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sidebar_normal.xml",
@@ -176,12 +176,12 @@
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_red_blue.xml"
     },
     {
-        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qzone_off.png",
-        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qzone_off.png"
-    },
-    {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qzone_off.png"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_google.png",
@@ -196,12 +196,12 @@
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_selected.png"
     },
     {
-        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_share_to_button.xml",
-        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_share_to_button.xml"
-    },
-    {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ali_sdk_openaccount_bg_oval_qq.xml",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\ali_sdk_openaccount_bg_oval_qq.xml"
+    },
+    {
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_share_to_button.xml"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_blue.9.png",
@@ -240,16 +240,16 @@
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\ali_sdk_openaccount_bg_corners_button.xml"
     },
     {
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_taobao_tae_sdk_root_cer.jpg",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_taobao_tae_sdk_root_cer.jpg"
+    },
+    {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_facebook.png",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_facebook.png"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qq_on.png",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qq_on.png"
-    },
-    {
-        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_taobao_tae_sdk_root_cer.jpg",
-        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_taobao_tae_sdk_root_cer.jpg"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_douban_off.png",
@@ -308,20 +308,16 @@
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_search_icon.png"
     },
     {
-        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_renren_off.png",
-        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_renren_off.png"
-    },
-    {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
     },
     {
-        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
-        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_renren_off.png",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_renren_off.png"
     },
     {
-        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_taobao_tae_sdk_web_view_activity_sendfeedback_addpicture.9.png",
-        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_taobao_tae_sdk_web_view_activity_sendfeedback_addpicture.9.png"
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_taobao_tae_sdk_web_view_menu_item_bg.xml",
@@ -332,6 +328,10 @@
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_check.xml"
     },
     {
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_taobao_tae_sdk_web_view_activity_sendfeedback_addpicture.9.png",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_taobao_tae_sdk_web_view_activity_sendfeedback_addpicture.9.png"
+    },
+    {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
     },
@@ -340,16 +340,16 @@
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_renren_on.png"
     },
     {
+        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ali_sdk_openaccount_bg_dotted_line_gray.xml",
+        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\ali_sdk_openaccount_bg_dotted_line_gray.xml"
+    },
+    {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check_off.png"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_default_avatar.png",
         "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_default_avatar.png"
-    },
-    {
-        "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ali_sdk_openaccount_bg_dotted_line_gray.xml",
-        "source": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\ali_sdk_openaccount_bg_dotted_line_gray.xml"
     },
     {
         "merged": "D:\\AS\\project\\ECook\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ali_sdk_openaccount_bg_corners_white.xml",

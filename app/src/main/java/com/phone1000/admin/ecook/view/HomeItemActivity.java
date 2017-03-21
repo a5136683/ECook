@@ -204,7 +204,6 @@ public class HomeItemActivity extends AppCompatActivity implements IHomeItemView
 
     @Override
     public void getItemData(HomeItemDataInfo homeItemDataInfo) {
-        Log.d("test", homeItemDataInfo.getList().size() + "~~~~~~~~~~~~~~~~~");
         this.homeItemDataInfo = homeItemDataInfo;  //获取数据成功
 //        if (homeItemDataInfo != null) {
             animation_ll.setVisibility(View.GONE);
