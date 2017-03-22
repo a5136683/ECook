@@ -51,6 +51,7 @@ public class FindActivity extends AppCompatActivity implements View.OnClickListe
     private void setListener() {
         find_cancel.setOnClickListener(this);
         find_clear.setOnClickListener(this);
+
         search_click.setOnClickListener(this);
         foot.setOnClickListener(new View.OnClickListener() {
             @Override
